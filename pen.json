@@ -1,0 +1,20 @@
+[{
+        "description": "Are there pen markings (2) in the lesion image or not (1)?",
+        "help": "Please mark any images with value 'has_pen' if the lesion has pen markings",
+        "name": "image_pen",
+        "selection": "single",
+        "icontype": "pervalue",
+        "type": "multiple_with_default",
+        "values": {
+            "no_pen": {
+                "default": True,
+                "hotkey": "1",
+                "icon": "fa-smile",
+            },
+            "has_pen": {
+                "default": False,
+                "hotkey": "2",
+                "icon": "fa-frown",
+            },
+        },
+    }]
