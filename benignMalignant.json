@@ -1,0 +1,20 @@
+[{
+    "description": "Does the lesion appear to be (m)alignant or (b)enign?",
+    "help": "Does the image show a lesion that suggests a malignancy?",
+    "icontype": "pervalue",
+    "name": "image_BenignMalignant",
+    "selection": "single",
+    "type": "multiple_with_default",
+    "values": {
+        "Benign": {
+            "default": True,
+            "hotkey": "b",
+            "icon": "fa-smile"
+        },
+        "Malignant": {
+            "default": False,
+            "hotkey": "m",
+            "icon": "fa-frown"
+        }
+    }
+}]
