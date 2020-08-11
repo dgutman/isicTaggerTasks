@@ -1,0 +1,26 @@
+[{
+        "description": "Is there hair obscuring the lesion?",
+        "help": "Please select the appropriate value: none (1), some (2), obscuring (3)",
+        "icon": "fa-signature",
+        "icontype": "pervalue",
+        "name": "image_hair",
+        "selection": "single",
+        "type": "multiple_with_default",
+        "values": {
+            "none": {
+                "default": True,
+                "hotkey": "1",
+                "icon": "fa-smile",
+            },
+            "some": {
+                "default": False,
+                "hotkey": "2",
+                "icon": "fa-frown",
+            },
+            "obscuring": {
+                "default": False,
+                "hotkey": "3",
+                "icon": "fa-grimace",
+            },
+        },
+    }]
