@@ -1,0 +1,27 @@
+[{
+            "description": "Which colors are in the image?",
+            "help": "Please select the colors you find in the image (bEige, Red, brOwn, blacK)!",
+            "icon": "fa-palette",
+            "icontype": "badgecolor",
+            "name": "colors_in_image",
+            "selection": "multiple",
+            "type": "multiple",
+            "values": {
+                "beige": {
+                    "badgecolor": "#DBC7AF",
+                    "hotkey": "e"
+                },
+                "black": {
+                    "badgecolor": "#000000",
+                    "hotkey": "k"
+                },
+                "brown": {
+                    "badgecolor": "#f0f0f0",
+                    "hotkey": "o"
+                },
+                "red": {
+                    "badgecolor": "#ff0000",
+                    "hotkey": "r"
+                }
+            }
+        }]
