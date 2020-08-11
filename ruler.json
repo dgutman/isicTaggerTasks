@@ -1,0 +1,20 @@
+[{
+        "description": "Is there a ruler (2) in this lesion image or not (1)?",
+        "help": "Please mark any images with value 'has_ruler' if the image contains a ruler",
+        "name": "image_ruler",
+        "selection": "single",
+        "icontype": "pervalue",
+        "type": "multiple_with_default",
+        "values": {
+            "no_corners": {
+                "default": True,
+                "hotkey": "1",
+                "icon": "fa-smile"
+            },
+            "has_corners": {
+                "default": False,
+                "hotkey": "2",
+                "icon": "fa-frown",
+            },
+        },
+    }]
