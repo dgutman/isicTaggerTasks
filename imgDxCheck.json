@@ -1,0 +1,20 @@
+[{
+    "description": "Is the lesion diagnosis consistent with the current image?",
+    "help": "i.e. does the image show a lesion of the type given by the folder name or supplied metadata (e.g. SK)?",
+    "icontype": "pervalue",
+    "name": "image_Diagnosis_Check",
+    "selection": "single",
+    "type": "multiple_with_default",
+    "values": {
+        "Yes": {
+            "default": True,
+            "hotkey": "",
+            "icon": "fa-check"
+        },
+        "No": {
+            "default": False,
+            "hotkey": "d",
+            "icon": "fa-times"
+        }
+    }
+}]
