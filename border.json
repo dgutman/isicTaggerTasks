@@ -1,0 +1,25 @@
+[{
+        "description": "Does the lesion appear with border/corners (2/3) or not (1)?",
+        "help": "Please mark any images with value 'has_border' if the lesion has a border, and with 'has_corners' if the lesion has corners",
+        "name": "image_border",
+        "selection": "single",
+        "icontype": "pervalue",
+        "type": "multiple_with_default",
+        "values": {
+            "no_border": {
+                "default": True,
+                "hotkey": "1",
+                "icon": "fa-smile",
+            },
+            "has_border": {
+                "default": False,
+                "hotkey": "2",
+                "icon": "fa-grimace",
+            },
+            "has_corners": {
+                "default": False,
+                "hotkey": "3",
+                "icon": "fa-frown",
+            },
+        },
+ }]
