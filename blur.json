@@ -1,0 +1,20 @@
+[{
+        "description": "Is the lesion area blurry (2) or not (1)?",
+        "help": "Please mark any images with value 'has_blur' if the lesion area is not in focus",
+        "name": "image_blur",
+        "selection": "single",
+        "icontype": "pervalue",
+        "type": "multiple_with_default",
+        "values": {
+            "no_blur": {
+                "default": True,
+                "hotkey": "1",
+                "icon": "fa-smile",
+            },
+            "has_blur": {
+                "default": False,
+                "hotkey": "2",
+                "icon": "fa-frown",
+            },
+        },
+}]
