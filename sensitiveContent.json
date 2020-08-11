@@ -1,0 +1,20 @@
+[{
+    "description": "Does the image contain any sensitive content or potential Protected Health Information?",
+    "help": "Please mark images with (s) if it contains sensitive information that may need additional review",
+    "icontype": "pervalue",
+    "name": "image_Quality_Check",
+    "selection": "single",
+    "type": "multiple_with_default",
+    "values": {
+        "Yes": {
+            "default": False,
+            "hotkey": "s",
+            "icon": "fa-frown"
+        },
+        "No": {
+            "default": True,
+            "hotkey": "",
+            "icon": "fa-smile"
+        }
+    }
+}]
