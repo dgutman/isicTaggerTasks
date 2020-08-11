@@ -1,0 +1,20 @@
+[{
+        "description": "Are there light leak spots (2) on the image or not (1)?",
+        "help": "Please mark any images with value 'has_lights' if the lesion has light leak spots",
+        "name": "image_lightleak",
+        "selection": "single",
+        "icontype": "pervalue",
+        "type": "multiple_with_default",
+        "values": {
+            "no_lights": {
+                "default": True,
+                "hotkey": "1",
+                "icon": "fa-smile",
+            },
+            "has_lights": {
+                "default": False,
+                "hotkey": "2",
+                "icon": "fa-frown",
+            },
+        },
+    }]
