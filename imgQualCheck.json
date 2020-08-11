@@ -1,0 +1,20 @@
+[{
+    "description": "Can this be used for the desired application/study?",
+    "help": "e.g. is the image quality and lesion content appropriate for the application?",
+    "icontype": "pervalue",
+    "name": "image_Quality_Check",
+    "selection": "single",
+    "type": "multiple_with_default",
+    "values": {
+        "Yes": {
+            "default": True,
+            "hotkey": "",
+            "icon": "fa-check"
+        },
+        "No": {
+            "default": False,
+            "hotkey": "q",
+            "icon": "fa-times"
+        }
+    }
+}]
